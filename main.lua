@@ -446,7 +446,7 @@ end
 
 local Window = MakeWindow({
     Hub = {
-        Title = "XR7 ~ Gaheem"
+        Title = "AMAR ~ HUB"
     }
 })
 

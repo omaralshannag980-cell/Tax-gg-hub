@@ -1,7 +1,8 @@
--- ==========================================
--- إعدادات السكربت والواجهة (XR7 ~ Gaheem) - نسخة نظيفة
--- الواجهة الرئيسية + الزر العائم فقط
--- ==========================================
+--عمك عمار
+--عمك لانشر
+--عمك روكس
+--عمك روجر
+--عمك سلندر
 
 local Configs_HUB = { 
   Cor_Hub = Color3.fromRGB(15, 15, 15),
@@ -102,7 +103,7 @@ local ScreenGui = Create("ScreenGui", CoreGui, {
 })
 
 local IntroGui = Create("ScreenGui", CoreGui, {
-  Name = "XR7_Intro",
+  Name = "AMAR_Intro",
   ResetOnSpawn = false,
   ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 })
@@ -118,7 +119,7 @@ local IntroText = Create("TextLabel", IntroBG, {
   Position = UDim2.new(0.5, -200, 0.5, -50),
   BackgroundTransparency = 1,
   Font = Configs_HUB.Text_Font,
-  Text = "XR7~Gaheem",
+  Text = "AMAR~HUB",
   TextSize = 35,
   TextColor3 = Color3.fromRGB(255, 0, 0),
   TextScaled = true
@@ -171,7 +172,7 @@ Create("UIListLayout", Menu_Notifi, {
 })
 
 function MakeNotifi(Configs)
-  local Title = Configs.Title or "جحيم ~VRX"
+  local Title = Configs.Title or "AMAR ~HUB"
   local text = Configs.Text or "Notification"
   local timewait = Configs.Time or 5
   
@@ -258,7 +259,7 @@ function MakeNotifi(Configs)
 end
 
 function MakeWindow(Configs)
-  local title = Configs.Hub.Title or "جحيم ~VRX"
+  local title = Configs.Hub.Title or "AMAR ~HUB"
   
   local Menu = Create("Frame", ScreenGui, {
     BackgroundColor3 = Configs_HUB.Cor_Hub,
